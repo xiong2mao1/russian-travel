@@ -1,0 +1,21 @@
+.header__lang-link {
+  font-family: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  opacity: 1;
+  transition: .5s linear;
+}
+
+.header__lang-link:active {
+  text-decoration: underline;
+}
+
+.header__lang-link:hover {
+  opacity: .7;
+}
