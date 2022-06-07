@@ -9,3 +9,18 @@
   font-style: normal;
   text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 288px;
+    padding: 16px 0 40px;
+  }
+}

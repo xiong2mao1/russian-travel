@@ -7,3 +7,25 @@
   align-items: center;
   gap: 80px;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin: 88px auto 90px;
+    gap: 73px;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .places {
+    gap: 50px 0;
+    margin: 64px auto 66px;
+    padding: 0;
+  }
+}
