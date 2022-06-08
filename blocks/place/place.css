@@ -13,18 +13,12 @@
 
 @media screen and (max-width: 850px) {
   .place {
-    grid-template-columns: 380px 1fr;
+    grid-template-columns: 340px 1fr;
     column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .place {
-    grid-template-columns: 340px 1fr;
-  }
-}
-
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 767px) {
   .place {
     row-gap: 32px;
     grid-template-columns: 1fr;

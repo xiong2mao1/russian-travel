@@ -4,17 +4,14 @@
   min-height: calc(100vw / 1.6);
   text-decoration: none;
   color: white;
-  background-image: url("../../../images/cover-trains.jpg");
+  background: url("../../../images/cover-trains.jpg") no-repeat center center / cover;
   position: relative;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 1;
-  
+
 }
 
 .cover__overlay::after {
